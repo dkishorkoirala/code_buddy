@@ -20,3 +20,21 @@ Test your function with the following dictionary:
 student_grades = {'Alice': 85, 'Bob': 92, 'Charlie': 78, 'David': 95, 'Eve': 88}
 Print the result of the function call.
 """
+
+
+def analyze_grades(grades):
+    d = {}
+    lst = list(grades.values())
+    d["average"] = sum(lst) / len(lst)
+    d["highest"] = max(lst)
+    d["lowest"] = min(lst)
+    d["top_student"] = max(grades, key=grades.get)
+    d["bottom_student"] = min(grades, key=grades.get)
+
+    return d
+
+
+# Test the function
+student_grades = {"Alice": 85, "Bob": 92, "Charlie": 78, "David": 95, "Eve": 88}
+result = analyze_grades(student_grades)
+print(result)
