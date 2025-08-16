@@ -1,4 +1,4 @@
-'''
+"""
 Methods
 
 
@@ -9,10 +9,10 @@ Here is an example of a class with methods:
 class Calculator:
     def greet(self):
         print("Hello! I'm a calculator.")
-    
+
     def add(self, a, b):
         return a + b
-    
+
     def multiply(self, x, y):
         result = x * y
         print(f"{x} × {y} = {result}")
@@ -58,4 +58,4 @@ A method deposit that takes an amount and adds it to the account's balance
 A method withdraw that takes an amount and subtracts it from the balance
 A method get_balance that returns the current balance
 Then in driver.py, import your BankAccount class, create an account, deposit $100, withdraw $30, and print the balance with format: f"Current balance: ${my_account.get_balance()}"
-'''
+"""
