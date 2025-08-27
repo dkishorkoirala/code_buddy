@@ -1,0 +1,12 @@
+"""Book and User Classes
+
+Challenge
+
+In this challenge, you'll implement the Book class for a library management system using a multi-file structure with comprehensive test coverage.
+
+Edit book.py to implement the Book class following the TODO comments. The implementation should:
+
+Initialize with title, author, and ISBN parameters
+Track availability status and borrower information
+Implement proper string representation
+"""
