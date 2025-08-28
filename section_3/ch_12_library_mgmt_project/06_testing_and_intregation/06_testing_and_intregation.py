@@ -1,0 +1,9 @@
+"""Testing and Integration
+
+Challenge
+
+In this challenge, you'll implement a multi-file library system with comprehensive test coverage. You'll work with three editable files that contain detailed TODO comments guiding your implementation:
+
+book.py - Contains the Book class definition
+user.py - Contains the User class you need to implement
+library.py - Contains the Library class definition"""
